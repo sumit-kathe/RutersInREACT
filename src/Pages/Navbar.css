@@ -1,0 +1,21 @@
+
+.maindiv{
+
+
+    display:flex;
+    gap:20px;
+
+    background-color: black;
+
+    color: aqua;
+
+    font-size: 20px;
+
+    border-radius: 15px;
+}
+
+.singlediv{
+
+    padding: 20px;
+    text-decoration: none;
+}
