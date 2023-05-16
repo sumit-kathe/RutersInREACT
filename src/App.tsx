@@ -5,6 +5,7 @@ import Home from './Pages/Home';
 import Contactus from './Pages/Contactus';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from './Pages/Navbar';
+import Pagenodefound from './Pagenodefound';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
   <Route path="/"  element={<Home/>}    />
   <Route path="/about"  element={<About/>}    />
   <Route path="/contact"  element={<Contactus/>}    />
+  <Route path="/*"  element={<Pagenodefound/>}    />
 
  </Routes>
   
